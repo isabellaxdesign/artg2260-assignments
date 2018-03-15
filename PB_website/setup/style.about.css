@@ -1,0 +1,15 @@
+body{
+	background-image: url(Images/marble.jpg) filter: alpha(opacity=50);
+	float:right;
+	padding-left: 40px
+
+}
+
+header .photos{
+	size: 60px
+}
+
+img meandband.jpg{
+	size: 60px,60px,60px,60px,
+}
+

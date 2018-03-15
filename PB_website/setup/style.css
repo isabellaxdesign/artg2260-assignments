@@ -1,0 +1,63 @@
+body {font-family: Helvetica,sans-sarif;
+font-size:15px;
+line-height: 1.5;
+padding: 0;
+margin: 20px;
+background-color: purple;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+header{
+	background-image: url(Images/white.gif);
+	padding-top: 30px
+	min-height:70px;
+	border-bottom: white 3px dotted;
+}
+
+header a{
+	color:white
+	text-transform: uppercase;
+	font-size: 16px
+}
+
+header ul{
+	margin:10px;
+	padding:10px;
+	color:white;
+	
+
+}
+header li{
+	float: left;
+	display: inline-grid;
+	padding:20px;
+	color:white;
+	
+}
+
+header li a{
+	color: white
+	text-:none;
+	font-size: 14pt;
+	padding-top: none
+	
+}
+
+header #branding h1{
+	float:right;
+	font-style: 36pt
+	font-color:white;
+}
+
+header nav{
+	float: left;
+	margin-top: 20px;
+	color:white;
+	
+}
+
+
