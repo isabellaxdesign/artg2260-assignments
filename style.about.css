@@ -1,15 +1,20 @@
+
 body{
-	background-image: url(Images/marble.jpg) filter: alpha(opacity=50);
+	background-image: url(./Images/hippy.gif);
+	background-size:auto;
+	color:white;
+	font:helvetica;
+	font-style: none;
 	float:right;
-	padding-left: 40px
+	padding-left:(120px);
+	padding-top: (60px);
+}
+
+
+ img{
+	border:white, double (10px);
+	padding-top: (20px);
 
 }
 
-header .photos{
-	size: 60px
 }
-
-img meandband.jpg{
-	size: 60px,60px,60px,60px,
-}
-
