@@ -20,6 +20,9 @@ function draw() {
   var x = floor(random(img.width));
   var y = floor(random(img.height));
   var pix = img.get(x, y);
-  fill(220,0,0);
-  ellipse(x, y, pointillize, pointillize);
+  strokeWeight(20);
+  stroke(0,127);
+  fill(160,0,127);
+  tint(255, 204, 0, 153)
+  triangle(x, y/2, pointillize, pointillize,random(20),random(15));
 }
