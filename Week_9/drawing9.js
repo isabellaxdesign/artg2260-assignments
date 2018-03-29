@@ -1,6 +1,6 @@
 var song;
 var button;
-var amp:
+var amp;
 var vol;
 
 function toggleSong(){
