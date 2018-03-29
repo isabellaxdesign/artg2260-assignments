@@ -27,6 +27,6 @@ function setup(){
 function draw(){
   background(0);
   var vol =amp.getLevel();
-  ellipse(100,100,200,vol *200);
+  ellipse(100,100,vol *200,vol *200);
   fill(255,240,245);
 }
