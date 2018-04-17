@@ -4,29 +4,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
-    border:1px solid #d3d3d3;
-    background-color: #f1f1f1;
+    border:1px solid red;
+    background-image: url("8bit.jpg");
+    background-size: auto;
 }
 </style>
 </head>
 <body onload="startGame()">
     <header>
-       <h1> Isabella Diaz</h1>
-        <h2>Assignment 4.0</h2>
+        <h1> Isabella Diaz</h1>
+        <h2>Assignment 5.0</h2>
         <h3> isabelladiazbfdiaz@gmail.com//diaz.is@husky.neu.edu</h3>
-        <h4> Issa Game!!!! </h4>
+        <h4> Issa v2Game!!!! </h4>
 
     </header>
+<p>How long can you stay alive? <br> Refresh to restart.</p>
 <script>
+
 
 var myGamePiece;
 var myObstacles = [];
 var myScore;
+var img= new Image();
+img.src="hamburger.ong.png";
 
 function startGame() {
-    myGamePiece = new component(30, 30, "red", 10, 120);
-    myGamePiece.gravity = 0.05;
-    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+    myGamePiece = new component(15, 20, "var img", 100, 10,);
+    myGamePiece.gravity = 0.025;
+    myScore = new component("24px", "Helvetica", "black", 0, 450, "text");
     myGameArea.start();
 }
 
@@ -34,7 +39,7 @@ var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
         this.canvas.width = 480;
-        this.canvas.height = 270;
+        this.canvas.height = 480;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);
         this.frameNo = 0;
@@ -139,6 +144,6 @@ function accelerate(n) {
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <p>Use the ACCELERATE button to stay in the air</p>
-<p>How long can you stay alive? <br> Refresh to restart.</p>
+
 </body>
 </html>
